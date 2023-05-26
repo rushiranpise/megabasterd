@@ -64,7 +64,7 @@ import javax.swing.table.DefaultTableModel;
  */
 public class SettingsDialog extends javax.swing.JDialog {
 
-    public static final String DEFAULT_SMART_PROXY_URL = "https://raw.githubusercontent.com/tonikelope/megabasterd/proxy_list/proxy_list.txt";
+    public static final String DEFAULT_SMART_PROXY_URL = "https://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/proxy.txt";
     private String _download_path;
     private String _custom_chunks_dir;
     private boolean _settings_ok;
