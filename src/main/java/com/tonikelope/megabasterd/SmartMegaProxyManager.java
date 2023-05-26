@@ -33,7 +33,7 @@ import java.util.logging.Logger;
  */
 public final class SmartMegaProxyManager {
 
-    public static String DEFAULT_SMART_PROXY_URL = null;
+    public static String DEFAULT_SMART_PROXY_URL = "https://raw.githubusercontent.com/ShiftyTR/Proxy-List/master/proxy.txt";
     public static final int PROXY_BLOCK_TIME = 86400;
     public static final int PROXY_AUTO_REFRESH_SLEEP_TIME = 30;
     private static final Logger LOG = Logger.getLogger(SmartMegaProxyManager.class.getName());
