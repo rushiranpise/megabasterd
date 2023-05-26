@@ -35,7 +35,7 @@ public final class SmartMegaProxyManager {
 
     public static String DEFAULT_SMART_PROXY_URL = null;
     public static final int PROXY_BLOCK_TIME = 86400;
-    public static final int PROXY_AUTO_REFRESH_SLEEP_TIME = 60;
+    public static final int PROXY_AUTO_REFRESH_SLEEP_TIME = 30;
     private static final Logger LOG = Logger.getLogger(SmartMegaProxyManager.class.getName());
     private volatile String _proxy_list_url;
     private final LinkedHashMap<String, Long[]> _proxy_list;
