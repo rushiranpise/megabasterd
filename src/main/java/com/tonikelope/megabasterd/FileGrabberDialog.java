@@ -405,7 +405,7 @@ public class FileGrabberDialog extends javax.swing.JDialog {
 
         dance_button.setBackground(new java.awt.Color(102, 204, 255));
         dance_button.setFont(new java.awt.Font("Dialog", 1, 22)); // NOI18N
-        dance_button.setForeground(new java.awt.Color(32, 32, 32));
+        dance_button.setForeground(new java.awt.Color(255, 255, 255));
         dance_button.setText("Let's dance, baby");
         dance_button.setDoubleBuffered(true);
         dance_button.setEnabled(false);

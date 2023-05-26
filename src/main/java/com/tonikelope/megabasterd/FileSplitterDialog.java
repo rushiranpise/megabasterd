@@ -277,7 +277,7 @@ public class FileSplitterDialog extends javax.swing.JDialog {
 
         split_button.setBackground(new java.awt.Color(102, 204, 255));
         split_button.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
-        split_button.setForeground(new java.awt.Color(32, 32, 32));
+        split_button.setForeground(new java.awt.Color(255, 255, 255));
         split_button.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-cut-30.png"))); // NOI18N
         split_button.setText("SPLIT FILE/s");
         split_button.setDoubleBuffered(true);
