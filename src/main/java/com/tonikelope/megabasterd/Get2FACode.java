@@ -113,7 +113,7 @@ public class Get2FACode extends javax.swing.JDialog {
 
         current_code_textfield.setBackground(new java.awt.Color(0, 153, 255));
         current_code_textfield.setFont(new java.awt.Font("Dialog", 0, 24)); // NOI18N
-        current_code_textfield.setForeground(new java.awt.Color(255, 255, 255));
+        current_code_textfield.setForeground(new java.awt.Color(32, 32, 32));
         current_code_textfield.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         current_code_textfield.setDoubleBuffered(true);
         current_code_textfield.setMargin(new java.awt.Insets(2, 2, 2, 2));

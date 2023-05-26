@@ -68,7 +68,7 @@ public class WarningExitMessage extends javax.swing.JDialog {
 
         exit_button.setBackground(new java.awt.Color(255, 0, 0));
         exit_button.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        exit_button.setForeground(new java.awt.Color(255, 255, 255));
+        exit_button.setForeground(new java.awt.Color(32, 32, 32));
         exit_button.setText("EXIT NOW");
         exit_button.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

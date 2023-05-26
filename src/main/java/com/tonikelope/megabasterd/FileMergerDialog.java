@@ -225,7 +225,7 @@ public class FileMergerDialog extends javax.swing.JDialog {
 
         merge_button.setBackground(new java.awt.Color(102, 204, 255));
         merge_button.setFont(new java.awt.Font("Dialog", 1, 24)); // NOI18N
-        merge_button.setForeground(new java.awt.Color(255, 255, 255));
+        merge_button.setForeground(new java.awt.Color(32, 32, 32));
         merge_button.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/icons8-glue-30.png"))); // NOI18N
         merge_button.setText("MERGE FILE");
         merge_button.setDoubleBuffered(true);

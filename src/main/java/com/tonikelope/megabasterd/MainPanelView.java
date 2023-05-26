@@ -625,7 +625,7 @@ public final class MainPanelView extends javax.swing.JFrame {
 
         pause_all_down_button.setBackground(new java.awt.Color(255, 153, 0));
         pause_all_down_button.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        pause_all_down_button.setForeground(new java.awt.Color(255, 255, 255));
+        pause_all_down_button.setForeground(new java.awt.Color(32, 32, 32));
         pause_all_down_button.setText("PAUSE ALL");
         pause_all_down_button.setDoubleBuffered(true);
         pause_all_down_button.addActionListener(new java.awt.event.ActionListener() {
@@ -708,7 +708,7 @@ public final class MainPanelView extends javax.swing.JFrame {
 
         pause_all_up_button.setBackground(new java.awt.Color(255, 153, 0));
         pause_all_up_button.setFont(new java.awt.Font("Dialog", 1, 18)); // NOI18N
-        pause_all_up_button.setForeground(new java.awt.Color(255, 255, 255));
+        pause_all_up_button.setForeground(new java.awt.Color(32, 32, 32));
         pause_all_up_button.setText("PAUSE ALL");
         pause_all_up_button.setDoubleBuffered(true);
         pause_all_up_button.addActionListener(new java.awt.event.ActionListener() {
