@@ -682,7 +682,7 @@ public class Download implements Transference, Runnable, SecureSingleThreadNotif
                             }
                         }
 
-                        getView().printStatusNormal(LabelTranslatorSingleton.getInstance().translate("Downloading file from mega ") + (_ma.getFull_email() != null ? "(" + _ma.getFull_email() + ")" : "") + " ...");
+                        getView().printStatusNormal(LabelTranslatorSingleton.getInstance().translate("Downloading") + (_ma.getFull_email() != null ? "(" + _ma.getFull_email() + ")" : "") + " ...");
 
                         MiscTools.GUIRun(() -> {
                             for (JComponent c : new JComponent[]{getView().getPause_button(), getView().getProgress_pbar()}) {

@@ -544,7 +544,7 @@ public class DownloadView extends javax.swing.JPanel implements TransferenceView
     @Override
     public void resume() {
 
-        printStatusNormal("Downloading file from mega ...");
+        printStatusNormal("Downloading");
 
         MiscTools.GUIRunAndWait(() -> {
             for (JComponent c : new JComponent[]{pause_button, speed_label, slots_label, slots_spinner, progress_pbar, file_name_label, file_size_label}) {
