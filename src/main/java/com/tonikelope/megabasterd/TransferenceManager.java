@@ -702,7 +702,7 @@ abstract public class TransferenceManager implements Runnable, SecureSingleThrea
             _main_panel.getTrayicon().displayMessage("MegaBasterd says:", "All your transferences have finished", TrayIcon.MessageType.INFO);
         }
 
-        return (pre + prov + rem + wait + run + finish > 0) ? LabelTranslatorSingleton.getInstance().translate("Preprocess:") + " " + pre + " / " + LabelTranslatorSingleton.getInstance().translate("Provision:") + " " + prov + " / " + LabelTranslatorSingleton.getInstance().translate("Queue:") + " " + wait + " / " + LabelTranslatorSingleton.getInstance().translate("Downloading:") + " " + run + " / " + LabelTranslatorSingleton.getInstance().translate("Downloaded:") + " " + finish + " / " + LabelTranslatorSingleton.getInstance().translate("Removed:") + " " + rem : "";
+        return (pre + prov + rem + wait + run + finish > 0) ? LabelTranslatorSingleton.getInstance().translate("Pre:") + " " + pre + " / " + LabelTranslatorSingleton.getInstance().translate("Pro:") + " " + prov + " / " + LabelTranslatorSingleton.getInstance().translate("Wait:") + " " + wait + " / " + LabelTranslatorSingleton.getInstance().translate("Run:") + " " + run + " / " + LabelTranslatorSingleton.getInstance().translate("Finish:") + " " + finish + " / " + LabelTranslatorSingleton.getInstance().translate("Rem:") + " " + rem : "";
     }
 
     private boolean _isOKFinishedInQueue() {
