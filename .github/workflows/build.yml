@@ -24,6 +24,6 @@ jobs:
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
           prerelease: false
-          automatic_release_tag: ${{ env.VERSION_NO }}
+          automatic_release_tag: ${{ env.VERSION_NO $(date -u +"%D")" }}
           files: |
             target/*jar-with-dependencies.jar
