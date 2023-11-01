@@ -1,0 +1,30 @@
+name: Maven CI/CD
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+
+  publish-job:
+      permissions: write-all
+      runs-on: ubuntu-latest
+      steps:
+      - uses: actions/checkout@v2
+      - name: version
+        run: echo "VERSION_NO=$(grep -oPm1 '(?<=<version>)[^<]+' pom.xml)" >> $GITHUB_ENV
+        id: version
+
+      - uses: actions/setup-java@v1
+        with:
+          java-version: 11
+      - run: mvn -B package --file pom.xml -DskipTests
+
+      - uses: "marvinpinto/action-automatic-releases@latest"
+        with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          prerelease: false
+          automatic_release_tag: ${{ env.VERSION_NO }}
+          title: "Development Build"
+          files: |
+            target/*jar-with-dependencies.jar
